@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<parameter name="env" value="beta"></parameter>
+	<listeners>
+		<listener class-name="com.example.ExtentReportListener"></listener>
+	</listeners>
+	<test name="Testing" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_header_test" />
+			<class name="careers_360_test.University_Gallery_test" />
+			<class name="careers_360_test.University_Fees_Structure_Test" />
+			<class name="careers_360_test.University_Review_Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="University_Header_Page" enabled="true">
+		<classes>
+			<class name="careers_360_test.University_header_test"></class>
+		</classes>
+	</test> <!-- Test 1-->
+	<test name="University_Gallery_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Gallery_test"></class>
+		</classes>
+	</test> <!-- Test 2-->
+	<test name="University_Signup_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Signup_test"></class>
+		</classes>
+	</test> <!-- Test 3-->
+	<test name="University_Rankings_Highlights_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Rankings_Highlights_Test"></class>
+		</classes>
+	</test> <!-- Test 4-->
+	<test name="University_Fees_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Fees_Structure_Test"></class>
+		</classes>
+	</test> <!-- Test 5-->
+	<test name="University_Cut_offs_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Cut_offs_Test"></class>
+		</classes>
+	</test> <!-- Test 6-->
+	<test name="University_Review_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Review_Test"></class>
+		</classes>
+	</test> <!-- Test 7-->
+	<test name="University_Facilities_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Facilities_Test"></class>
+		</classes>
+	</test> <!-- Test 8-->
+	<test name="University_Affiliated_Colleges_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.University_Departments_Test"></class>
+		</classes>
+	</test> <!-- Test 9-->
+	<test name="CTA_Header_Login_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Header_Login_Test"></class>
+		</classes>
+	</test> <!-- Test 10-->
+	<test name="CTA_Header_Whatsapp_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Header_Whatsapp_Test"></class>
+		</classes>
+	</test> <!-- Test 11-->
+	<test name="CTA_Header_Premium_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Header_Premium_Test"></class>
+		</classes>
+	</test> <!-- Test 12-->
+	<test name="CTA_Overview_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Overview_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 13-->
+	<test name="CTA_Overview_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Overview_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 14-->
+	<test name="CTA_Overview_Compare_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Overview_Compare_Test"></class>
+		</classes>
+	</test> <!-- Test 15-->
+	<test name="CTA_Course_Fees_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Course_Fees_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 16-->
+	<test name="CTA_Course_Fees_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Course_Fees_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 17-->
+	<test name="CTA_Course_Fees_Course_List_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Course_Fees_Course_List_Test"></class>
+		</classes>
+	</test> <!-- Test 18-->
+	<test name="CTA_Cut_Offs_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Cut_Offs_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 19-->
+	<test name="CTA_Cut_Offs_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Cut_Offs_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 20-->
+	<test name="CTA_Admissions_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Admissions_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 21-->
+	<test name="CTA_Admissions_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Admissions_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 22-->
+	<test name="CTA_Admissions_details_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Admissions_details_Test"></class>
+		</classes>
+	</test> <!-- Test 23-->
+	<test name="CTA_Placement_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Placement_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 24-->
+	<test name="CTA_Placement_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Placement_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 25-->
+	<test name="CTA_Placement_Get_Report_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Placement_Get_Report_Test"></class>
+		</classes>
+	</test> <!-- Test 26-->
+	<test name="CTA_Reviews_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Reviews_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 27-->
+	<test name="CTA_Reviews_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Reviews_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 28-->
+	<test name="CTA_Facilities_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Facilities_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 29-->
+	<test name="CTA_Facilities_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Facilities_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 30-->
+	<test name="CTA_Facilities_Compare_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Facilities_Compare_Test"></class>
+		</classes>
+	</test> <!-- Test 31-->
+	<test name="CTA_Ques_Ans_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Ques_Ans_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 32-->
+	<test name="CTA_Ques_Ans_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Ques_Ans_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 33-->
+	<test name="CTA_Ques_Ans_Ask_Now_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Ques_Ans_Ask_Now_Test"></class>
+		</classes>
+	</test> <!-- Test 34-->
+	<test name="CTA_Notable_Alumni_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Notable_Alumni_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 35-->
+	<test name="CTA_Notable_Alumni_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Notable_Alumni_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 36-->
+	<test name="CTA_Notable_Alumni_Compare_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_Notable_Alumni_Compare_Test"></class>
+		</classes>
+	</test> <!-- Test 37-->
+	<test name="CTA_College_Dept_Enquire_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_College_Dept_Enquire_Test"></class>
+		</classes>
+	</test> <!-- Test 38-->
+	<test name="CTA_College_Dept_Brochure_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_College_Dept_Brochure_Test"></class>
+		</classes>
+	</test> <!-- Test 39-->
+	<test name="CTA_College_Dept_List_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.CTA_College_Dept_List_Test"></class>
+		</classes>
+	</test> <!-- Test 40-->
+	<test name="College_Reviews_Page" enabled="false">
+		<classes>
+			<class name="careers_360_test.College_Reviews_Test"></class>
+		</classes>
+	</test> <!-- Test 41-->
+</suite> <!-- Suite -->

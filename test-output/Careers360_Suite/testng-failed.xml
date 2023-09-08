@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Careers360_Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="env" value="live"/>
+  <listeners>
+    <listener class-name="com.example.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="University_Header_Page(failed)">
+    <classes>
+      <class name="careers_360_test.University_Signup_test">
+        <methods>
+          <include name="click_On_City"/>
+          <include name="click_On_Frame"/>
+          <include name="click_On_Email"/>
+          <include name="click_On_Yrs_Option2"/>
+          <include name="click_On_Study_Option"/>
+          <include name="click_On_Name"/>
+          <include name="click_On_Education"/>
+          <include name="geturllaunch4"/>
+          <include name="get_Signup_Text"/>
+          <include name="click_On_Study"/>
+          <include name="click_On_Signup"/>
+          <include name="get_Select_Year"/>
+          <include name="click_On_Edu_Option"/>
+          <include name="click_On_Mobile"/>
+        </methods>
+      </class> <!-- careers_360_test.University_Signup_test -->
+    </classes>
+  </test> <!-- University_Header_Page(failed) -->
+</suite> <!-- Failed suite [Careers360_Suite] -->

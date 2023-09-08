@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="env" value="live"/>
+  <listeners>
+    <listener class-name="com.example.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="University_Header_Page(failed)">
+    <classes>
+      <class name="careers_360_test.University_header_test">
+        <methods>
+          <include name="clickon_College_Title"/>
+          <include name="clickonenquire"/>
+          <include name="clickon_University_In_City"/>
+          <include name="clickon_University_In_India"/>
+          <include name="clickonbrochure"/>
+          <include name="clickon_ratingsummary"/>
+          <include name="click_On_City"/>
+          <include name="clickonclosebtn"/>
+          <include name="click_On_Home"/>
+          <include name="clickon_QandA"/>
+          <include name="click_On_State"/>
+          <include name="geturllaunch1"/>
+        </methods>
+      </class> <!-- careers_360_test.University_header_test -->
+    </classes>
+  </test> <!-- University_Header_Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
